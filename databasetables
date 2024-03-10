@@ -1,0 +1,28 @@
+
+CREATE DATABASE genato_db;
+
+CREATE TABLE user_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    lastname VARCHAR(255),
+    firstname VARCHAR(255),
+    blk VARCHAR(255),
+    lot VARCHAR(255),
+    street VARCHAR(255),
+    phasesub VARCHAR(255),
+    barangay VARCHAR(255),
+    country VARCHAR(255),
+    state VARCHAR(255),
+    city VARCHAR(255),
+    area_code VARCHAR(255),
+    contact_number VARCHAR(255),
+    email VARCHAR(255),
+    password VARCHAR(255)
+);
+
+
+CREATE TABLE feedback (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    subject VARCHAR(255) NOT NULL,
+    message VARCHAR(255) NOT NULL
+);

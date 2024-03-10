@@ -1,0 +1,172 @@
+/* CSS for Gym Coaching title */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  background-image: url('headerbg.jpg'); /* Add background image */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Make the background fixed */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  letter-spacing: 22px;
+  text-transform: uppercase;
+  color: rgba(255, 217, 0, 0.877);
+}
+
+/* CSS for navigation */
+nav {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: rgba(255, 217, 0, 0.788);
+}
+
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Make the background fixed */
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: black; /* Set font color to black */
+
+}
+
+body, p {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+
+/* Styles for footer */
+footer {
+  background-color: #333;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.5em;
+
+}
+
+/* Adjust styles for the images within the "Group Classes" section */
+.service:nth-child(2) .class-images {
+  text-align: center; /* Center the images */
+}
+
+.service:nth-child(2) .class-images img {
+  width: 200px; /* Set the width of the images */
+  margin: 10px; /* Add some space between the images */
+  display: inline-block; /* Display the images inline */
+}
+
+section {
+  color: #ffffff; /* Change text color to black */
+  font-size: 18px;
+  position: relative; /* Ensures absolute positioning relative to section */
+  padding: 50px;
+}
+
+
+h1, h2 {
+  color: rgba(255, 217, 0, 0.788);
+}
+
+p {
+  font-size: 0.5em;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #555;
+}
+
+.link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.link a {
+  color: black; /* Set link color to black */
+}
+
+/* Login Page */
+.login-container {
+  background-color: rgba(169, 169, 169, 0.5); /* Set background color to semi-transparent gray */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Signup Page */
+.signup-container {
+  background-color: rgba(169, 169, 169, 0.5); /* Set background color to semi-transparent gray */
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.signup-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 400px; /* Adjust the width as needed */
+}
+
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.562);
+  font-size: 18px;
+}

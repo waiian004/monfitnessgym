@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@500&family=Montserrat+Alternates:wght@500&family=Montserrat:wght@800&family=Pathway+Gothic+One&family=Poppins:wght@700&family=Press+Start+2P&family=Righteous&family=Rowdies&family=Titillium+Web:wght@200&display=swap');
+@import "footer.css";
+
+@keyframes float-in {
+    0% {
+      opacity: 0;
+      top: -50px;
+    }
+    50% {
+      opacity: 1;
+      top: 0;
+    }
+}
+
+/* Map */
+#map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+h1#map-title {
+    margin-top: 2em;
+    color: white;
+    margin-bottom: .4em;
+    font-weight: bold;
+    font-size: 5em;
+    text-align: center;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    h1#map-title {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1#map-title {
+        font-size: 2em;
+    }
+}
+
